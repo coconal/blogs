@@ -349,7 +349,7 @@ aside:
     # Time difference between publish date and now
     # Formal: Month/Day/Year Time or Year/Month/Day Time
     # Leave it empty if you don't enable this feature
-    runtime_date:
+    runtime_date: 2025-12-01 00:00:00
 
 # --------------------------------------
 # Bottom right button
@@ -426,7 +426,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -734,13 +734,6 @@ ad:
   # Insert ads in aside
   aside:
     # Insert ads in the post (before pagination)
-    enable: true
-    # ...
-    card_webinfo:
-      enable: true
-      post_count: true
-      last_push_date: true
-      runtime_date: true
   post:
 
 # --------------------------------------
