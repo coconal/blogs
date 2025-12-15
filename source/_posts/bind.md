@@ -1,5 +1,5 @@
 ---
-title: call 实现
+title: call、apply和 bind 实现
 date: 2025-12-12 18:00:00
 categories:
   - 手写实现
@@ -169,4 +169,29 @@ Function.prototype.myBind = function (context) {
     };
 };
 
+```
+
+测试
+
+```js
+
+function testbind(a, b, c) {
+    console.log(a, b, c);
+
+    // console.log(this);
+    return a + b + c
+
+
+}
+
+const newfn = testbind.myBind({}, 1)
+console.log("newfn2", newfn(2, 5));
+console.log("newfn2", newfn(3, 7));
+```
+
+结果为：
+
+```bash
+1 3 7
+newfn2 11
 ```
