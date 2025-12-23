@@ -1,6 +1,6 @@
 ---
 title: call、apply和 bind 实现
-date: 2025-12-12 18:00:00
+date: 2025-12-15 18:00:00
 categories:
   - 手写实现
   - js
